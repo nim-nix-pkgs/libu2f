@@ -11,6 +11,7 @@
   inputs.src-libu2f-0_1_1.ref   = "refs/tags/0.1.1";
   inputs.src-libu2f-0_1_1.owner = "FedericoCeratto";
   inputs.src-libu2f-0_1_1.repo  = "nim-libu2f";
+  inputs.src-libu2f-0_1_1.dir   = "";
   inputs.src-libu2f-0_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
