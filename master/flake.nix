@@ -11,7 +11,6 @@
   inputs.src-libu2f-master.ref   = "refs/heads/master";
   inputs.src-libu2f-master.owner = "FedericoCeratto";
   inputs.src-libu2f-master.repo  = "nim-libu2f";
-  inputs.src-libu2f-master.dir   = "";
   inputs.src-libu2f-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
